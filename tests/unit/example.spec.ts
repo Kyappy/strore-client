@@ -1,4 +1,4 @@
-import HelloWorld from '@/components/hello-world.vue';
+import HelloWorld from '@/components/hello-world/hello-world';
 import {shallowMount, Wrapper} from '@vue/test-utils';
 import {expect} from 'chai';
 import {CombinedVueInstance} from 'vue/types/vue';
